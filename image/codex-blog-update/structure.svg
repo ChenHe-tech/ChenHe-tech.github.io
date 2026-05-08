@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+  <rect width="1200" height="620" fill="#fff7ed"/>
+  <text x="80" y="75" fill="#111827" font-size="38" font-weight="700" font-family="Microsoft YaHei, sans-serif">一篇 Hexo 文章可以这样组织</text>
+  <g font-family="Consolas, Microsoft YaHei, monospace" font-size="23">
+    <rect x="90" y="125" width="470" height="390" rx="18" fill="#111827"/>
+    <text x="125" y="180" fill="#93c5fd">source/_posts/</text>
+    <text x="125" y="222" fill="#fef3c7">如何使用Codex为个人博客进行更新.md</text>
+    <text x="125" y="292" fill="#a7f3d0">---</text>
+    <text x="125" y="332" fill="#f8fafc">title: 如何使用 Codex...</text>
+    <text x="125" y="372" fill="#f8fafc">date: 2026-05-08 20:00:00</text>
+    <text x="125" y="412" fill="#f8fafc">tags: [Codex, 博客更新]</text>
+    <text x="125" y="452" fill="#a7f3d0">---</text>
+  </g>
+  <g font-family="Microsoft YaHei, sans-serif">
+    <rect x="645" y="140" width="395" height="70" rx="12" fill="#f97316"/>
+    <text x="682" y="186" fill="#ffffff" font-size="25" font-weight="700">Front Matter：告诉 Hexo 文章信息</text>
+    <rect x="645" y="250" width="395" height="70" rx="12" fill="#14b8a6"/>
+    <text x="682" y="296" fill="#ffffff" font-size="25" font-weight="700">正文内容：教程、图片、代码</text>
+    <rect x="645" y="360" width="395" height="70" rx="12" fill="#2563eb"/>
+    <text x="682" y="406" fill="#ffffff" font-size="25" font-weight="700">配图资源：放入 source/image</text>
+    <rect x="645" y="470" width="395" height="70" rx="12" fill="#475569"/>
+    <text x="682" y="516" fill="#ffffff" font-size="25" font-weight="700">预览确认：满意后再发布</text>
+  </g>
+</svg>

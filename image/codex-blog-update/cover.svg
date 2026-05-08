@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="45%" stop-color="#174151"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.96"/>
+      <stop offset="100%" stop-color="#ecfeff" stop-opacity="0.92"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#020617" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <path d="M0 515 C185 450 320 590 505 525 C700 456 805 352 1200 430 L1200 675 L0 675 Z" fill="#f8fafc" opacity="0.16"/>
+  <path d="M0 80 C210 20 365 148 535 92 C760 18 910 42 1200 116 L1200 0 L0 0 Z" fill="#67e8f9" opacity="0.10"/>
+  <g filter="url(#shadow)">
+    <rect x="130" y="105" width="940" height="465" rx="28" fill="url(#panel)"/>
+    <rect x="170" y="150" width="460" height="340" rx="18" fill="#0f172a"/>
+    <circle cx="203" cy="183" r="9" fill="#fb7185"/>
+    <circle cx="232" cy="183" r="9" fill="#facc15"/>
+    <circle cx="261" cy="183" r="9" fill="#34d399"/>
+    <text x="205" y="240" fill="#67e8f9" font-size="28" font-family="Consolas, monospace">hexo new post</text>
+    <text x="205" y="292" fill="#f8fafc" font-size="26" font-family="Consolas, monospace">source/_posts/</text>
+    <text x="205" y="344" fill="#fbbf24" font-size="26" font-family="Consolas, monospace">Codex writes</text>
+    <text x="205" y="396" fill="#a7f3d0" font-size="26" font-family="Consolas, monospace">Preview first</text>
+    <text x="205" y="448" fill="#f8fafc" font-size="26" font-family="Consolas, monospace">git push</text>
+    <text x="700" y="230" fill="#0f172a" font-size="52" font-weight="700" font-family="Microsoft YaHei, sans-serif">用 Codex</text>
+    <text x="700" y="300" fill="#0f172a" font-size="52" font-weight="700" font-family="Microsoft YaHei, sans-serif">更新个人博客</text>
+    <text x="704" y="370" fill="#475569" font-size="25" font-family="Microsoft YaHei, sans-serif">从想法、草稿、配图到发布</text>
+    <text x="704" y="420" fill="#475569" font-size="25" font-family="Microsoft YaHei, sans-serif">把写作流程变成可复用的工作台</text>
+    <rect x="704" y="456" width="230" height="48" rx="24" fill="#14b8a6"/>
+    <text x="735" y="488" fill="#ffffff" font-size="22" font-weight="700" font-family="Microsoft YaHei, sans-serif">中文博客教程</text>
+  </g>
+</svg>
